@@ -1,0 +1,37 @@
+.randomBeer_container {
+    width: 50vw;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+    background-color: #fcbf49;
+    border: 2px solid #023047;
+    border-radius: 12px;
+}
+
+.randomBeer + div {
+    display: flex;
+    flex-direction: column;
+}
+
+.randomBeer {
+    display: flex;
+    padding: 3rem;
+}
+
+.randomBeer_header {
+    color: #457b9d;
+    padding: 0.8rem 0.5rem;
+}
+
+.randomBeer_desc {
+    color: #023047;
+    padding: 0.8rem 0.5rem;
+    width: 70%;
+}
+
+.randomBeer_img {
+    position: relative;
+    top: 1rem;
+    right: 4rem;
+    height: 200px;
+}

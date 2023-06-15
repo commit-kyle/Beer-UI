@@ -1,0 +1,44 @@
+.searchBeer_container {
+    width: 45vw;
+    margin: 3rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBeer_header {
+    color: #023047;
+    margin-bottom: 3rem;
+}
+
+.searchBeer_input {
+    padding: 0.5rem 1.5rem;
+    font-size: 18px;
+    border: 2px solid #023047;
+    border-radius: 5px;
+    margin-right: 1rem;
+    color: #023047;
+}
+
+.searchBeer_btn {
+    color: #023047;
+    padding: 0.5rem 1.5rem;
+    background-color: #219ebc;
+    letter-spacing: 0.3rem;
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid #023047;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.searchBeer_listContainer {
+    border-radius: 7px;
+    padding: 1rem 5rem;
+    margin: 2rem auto;
+}
+
+.searchBeer_listItem {
+    padding: 0.3rem;
+    color: #023047;
+}
